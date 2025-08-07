@@ -65,7 +65,7 @@ FROM order_details;
 SELECT pt.category, ROUND(AVG(pi.price), 2) AS avg_price
 FROM pizzas pi
 JOIN pizza_types pt 
-  ON pi.pizza_type_id = pt.pizza_type_id
+ON pi.pizza_type_id = pt.pizza_type_id
 GROUP BY pt.category
 ORDER BY avg_price DESC;
 
