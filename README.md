@@ -75,5 +75,14 @@ These insights help understand what types, sizes, and times are most profitable 
 
 ---
 
+## 📌 Sample Queries
+
+```sql
+-- When (time) were the most orders made?
+SELECT time, COUNT(order_id) AS total_orders
+FROM orders
+GROUP BY time
+ORDER BY total_orders DESC;
+
 
 
