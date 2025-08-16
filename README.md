@@ -165,6 +165,7 @@ ORDER BY total_revenue DESC;
 **Answer:**
 
 <img width="274" height="69" alt="Screenshot 2025-08-16 105322" src="https://github.com/user-attachments/assets/95459a2d-6c1b-405b-b7e4-ee00f666bf38" />
+
 The top 3 most profitable pizza types based on revenue:
 - The Thai Chicken Pizza 
 - The Barbecue Chicken Pizza
@@ -181,6 +182,7 @@ FROM order_details;
 **Answer:**
 
 <img width="125" height="38" alt="Screenshot 2025-08-16 105730" src="https://github.com/user-attachments/assets/061ceb7c-acdc-4713-8396-4199e4ef9d07" />
+
 The average number of pizzas per order is 2.32
 
 ### 10. Which pizza category has the highest average price?
@@ -196,6 +198,7 @@ ORDER BY avg_price DESC;
 **Answer:**
 
 <img width="123" height="87" alt="Screenshot 2025-08-16 110014" src="https://github.com/user-attachments/assets/e8632455-ea48-408a-a7d6-512f530c4cf2" />
+
 The Supreme pizza category has the highest average price.
 
 ---
